@@ -10,7 +10,7 @@ Academic CV – Civil Engineering | Researcher | ICCR Scholar | Lecturer-ready p
 ---
 
 ## 📄 Curriculum Vitae
-👉 [Download CV (PDF)](./cv.pdf)
+👉 [Download CV (PDF)](./Dhruboraj-cv.pdf)
 
 ---
 
