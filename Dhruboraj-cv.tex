@@ -1,0 +1,384 @@
+%-------------------------
+% Professional ATS-Friendly Resume
+% Dhruboraj Roy | Civil Engineering
+%-------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{geometry}
+\usepackage{fontawesome5}
+\usepackage{ragged2e}
+
+\geometry{
+  top=0.5in,
+  bottom=0.55in,
+  left=0.65in,
+  right=0.65in
+}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Section formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{#1 \vspace{-2pt}}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \small #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \small #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%===========================
+%   RESUME STARTS HERE
+%===========================
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Huge \scshape \textbf{Dhruboraj Roy}} \\ \vspace{5pt}
+    {\small \textit{Civil Engineering Graduate $|$ Researcher $|$ ICCR Scholar $|$ YouTube Tutor}} \\ \vspace{6pt}
+    \small
+    \faPhone\ (+88) 01705-927257 \quad
+    \faEnvelope\ \href{mailto:Dhruborajroy3@gmail.com}{Dhruborajroy3@gmail.com} \quad
+    \faEnvelope\ \href{mailto:Dhrubo.bec.ce04@gmail.com}{Dhrubo.bec.ce04@gmail.com} \\
+    \vspace{3pt}
+    \faGlobe\ \href{http://thedhrubo.xyz}{thedhrubo.xyz} \quad
+    \faLinkedin\ \href{https://linkedin.com/in/dhruboraj-roy}{linkedin.com/in/dhruboraj-roy} \quad
+    \faYoutube\ \href{https://www.youtube.com/@dhruborajroy}{Dhrubo Raj Roy} \\
+    \vspace{2pt}
+    \faOrcid\ \href{https://orcid.org/0009-0007-9447-2154}{ORCID: 0009-0007-9447-2154} \quad
+    \faGithub\ \href{https://github.com/dhruborajroy}{github.com/dhruborajroy} \quad
+    \faMapMarker*\ Lalmonirhat, Rangpur, Bangladesh
+\end{center}
+
+\vspace{-6pt}
+
+%---------PERSONAL STATEMENT----------
+\section{Personal Statement}
+\begin{justify}
+\small{Civil Engineering undergraduate at Barishal Engineering College (Faculty of Engineering and Technology, University of Dhaka) with a strong passion for research in hydrology, flood modeling, and sustainable water resource management. An ICCR Suborna Jayanti Scholar with a consistent academic record (CGPA 3.40/4.00), I bring a rare combination of structural and environmental engineering expertise alongside hands-on programming skills in PHP, JavaScript, and MySQL. Aspiring to pursue graduate studies (M.Sc./M.Engg./Ph.D.) where I can contribute to impactful research at the intersection of civil engineering and data-driven technology.}
+\end{justify}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Bachelor of Science (Engg.) in Civil Engineering}{Barishal, Bangladesh}
+      {Barishal Engineering College -- Affiliated with University of Dhaka}{2022 -- Present}
+      \resumeItemListStart
+        \resumeItem{\textbf{CGPA: 3.40 / 4.00}}
+        \resumeItem{Relevant Coursework: Structural Analysis \& Design, Geotechnical Engineering, Hydrology \& Water Resources, Environmental Engineering, Transportation Engineering, Fluid Mechanics, Surveying \& Construction Technology}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Higher Secondary Certificate (HSC) -- Science}{Rangpur, Bangladesh}
+      {Police Lines School \& College, Rangpur}{2018 -- 2020}
+      \resumeItemListStart
+        \resumeItem{\textbf{GPA: 5.00 / 5.00}}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Secondary School Certificate (SSC) -- Science}{Lalmonirhat, Bangladesh}
+      {Lalmonirhat Government High School}{2016 -- 2018}
+      \resumeItemListStart
+        \resumeItem{\textbf{GPA: 5.00 / 5.00}}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------RESEARCH INTERESTS-----------
+\section{Research Interests}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \small{\item{
+    \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}} l l}
+      \textbullet\ Hydrology \& Flood Modeling &
+      \textbullet\ Climate Change Impact on Water Resources &
+      \textbullet\ Water Resource Management \\
+      \textbullet\ Structural \& Earthquake Engineering &
+      \textbullet\ GIS Applications in Civil Engineering &
+      \textbullet\ Environmental Engineering \\
+    \end{tabular*}
+  }}
+\end{itemize}
+
+%-----------SCHOLARSHIPS & AWARDS-----------
+\section{Scholarships \& Awards}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {ICCR Suborna Jayanti Scholarship (SJS)}{Patna, Bihar, India}
+      {Indian Council for Cultural Relations (ICCR), Government of India $|$ NIT Patna}{Jun 2022}
+      \resumeItemListStart
+        \resumeItem{Selected as an international student under the prestigious ICCR Suborna Jayanti Scholarship (SJS) to pursue B.Tech in Civil Engineering at the National Institute of Technology (NIT) Patna for academic session 2022--23}
+        \resumeItem{Developed a strong foundation in structural, geotechnical, and environmental engineering; enhanced problem-solving and research capabilities in a globally diverse academic environment}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {2nd Place -- Project Showcasing 2024}{}
+      {Technical Competition, Research \& Training Center, Barishal Engineering College}{Mar 2024}
+      \resumeItemListStart
+        \resumeItem{Presented an innovative civil engineering project among peers, demonstrating strong analytical, problem-solving, and technical presentation skills}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {1st Place (Zila Level) -- Science Fair 2017}{Lalmonirhat, Bangladesh}
+      {Lalmonirhat District Science Fair}{Jun 2017}
+      \resumeItemListStart
+        \resumeItem{Developed mobile application \textbf{``Krishan Bondhu''} for agricultural assistance; won 1st place at district level}
+        \resumeItem{Selected and participated in \textbf{Children Science Congress 2017} with the same project (December 2017)}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {AutoCAD Training Course (3 Days)}{Barishal, Bangladesh}
+      {Barishal Engineering College}{Feb 2024}
+      \resumeItemListStart
+        \resumeItem{Completed intensive 3-day AutoCAD training; gained hands-on experience in 2D drafting, engineering drawing, and design techniques for civil engineering applications}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Board Scholarship -- JSC}{Rangpur, Bangladesh}
+      {Dinajpur Education Board}{Dec 2015}
+      \resumeItemListStart
+        \resumeItem{Awarded board-level scholarship for outstanding performance in Junior School Certificate examination}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------PUBLICATIONS & RESEARCH-----------
+\section{Publications \& Research}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {B.Sc. Engineering Thesis}{}
+      {Barishal Engineering College, University of Dhaka $|$ Co-authors: Dhruboraj Roy, Orin Karmaker, Md. Liton Rabbani}{}
+      \resumeItemListStart
+        \resumeItem{\textbf{Title:} \textit{Thermal Footprint of Industrial Development: Assessing Land Surface Temperature and Air Temperature Variations Around the Rampal Power Plant, Bangladesh Using Multi-Temporal Landsat-8 and Geospatial Techniques}}
+        \resumeItem{\textbf{ORCID:} \href{https://orcid.org/0009-0007-9447-2154}{0009-0007-9447-2154} \quad \textbf{Institutional Email:} \href{mailto:Dhruborajroy.duengg@bec.edu.bd}{Dhruborajroy.duengg@bec.edu.bd}}
+        \resumeItem{Conducted a comprehensive spatio-temporal analysis of LST, LULC, NDVI, Air Temperature, and UHI intensity around the 1,320 MW Rampal Maitree Super Thermal Power Project, Bagerhat, using Landsat-8 imagery at biennial intervals (2014--2024)}
+        \resumeItem{\textbf{Key Findings:} Max LST rose by 10\textdegree C (24.30 $\to$ 34.30\textdegree C); Bare/Industrial land tripled (9.2\% $\to$ 27.1\%); Mean NDVI declined 44\% (0.41 $\to$ 0.23); Estimated peak air temperature reached 40.4\textdegree C in 2022; UHI intensity nearly doubled (4.5\textdegree C $\to$ 7.8\textdegree C)}
+        \resumeItem{\textbf{Methods:} ArcGIS 10.8, ISODATA LULC Classification, Radiative Transfer Equation for LST, AL-Anbari et al.\ (2019) Air Temperature Regression (Ta = a$\cdot$LST + b$\cdot$DEM + c$\cdot$DDL + d), Getis-Ord Gi* Hotspot Analysis, Pearson Correlation; OA $>$80\%, Kappa $>$0.75}
+        \resumeItem{Provides satellite-based empirical evidence of industrial thermal impact on the Sundarbans UNESCO World Heritage Site buffer zone and informs environmental policy for ecologically sensitive industrial siting}
+      \resumeItemListEnd
+
+    \vspace{2pt}
+
+    \resumeSubheading
+      {Journal Manuscript (Under Preparation)}{}
+      {Barishal Engineering College, University of Dhaka $|$ Co-authors: Dhruboraj Roy, Orin Karmaker, Md. Liton Rabbani}{}
+      \resumeItemListStart
+        \resumeItem{\textbf{Working Title:} \textit{Spatio-Temporal Analysis of Land Surface Temperature and Air Temperature Dynamics Induced by the Rampal Thermal Power Plant Using Landsat-8 Imagery and GIS: Implications for the Sundarbans Ecosystem}}
+        \resumeItem{Adapted from B.Sc.\ thesis as a peer-reviewed journal article analyzing post-commissioning thermal and land cover impacts of the Rampal Power Plant and their ecological implications for the Sundarbans mangrove ecosystem}
+        \resumeItem{\textbf{Target Journals:} \textit{Remote Sensing of Environment} $|$ \textit{Environmental Science \& Pollution Research} $|$ \textit{Sustainable Cities and Society} (Q1/Q2 indexed)}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE & INTERNSHIP-----------
+\section{Experience \& Internship}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Research Assistant}{Barishal, Bangladesh}
+      {Barishal Engineering College $|$ Part-time, On-site}{Aug 2025 -- Present}
+      \resumeItemListStart
+        \resumeItem{Conducting independent research in environmental and geospatial analysis for southwest Bangladesh, integrating remote sensing and GIS to address climate and industrial impact problems}
+        \resumeItem{\textbf{Thermal Footprint Study:} Analyzed Rampal Power Plant's thermal impact using multi-temporal Landsat-8 imagery; assessed LST and air temperature variations and spatial thermal anomaly patterns}
+        \resumeItem{\textbf{Precipitation Trend Analysis:} Performed GIS-based analysis of long-term rainfall variability, seasonal patterns, and spatial distribution to support water resource planning in coastal Bangladesh}
+        \resumeItem{\textbf{Tools:} Remote Sensing (Landsat-8), ArcGIS/QGIS, time-series \& spatial analysis, data visualization and mapping}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Public Works Department (PWD), Government of Bangladesh}{Barishal, Bangladesh}
+      {Civil Engineering  $|$ Internship, On-site}{Dec 2025 -- Jan 2026}
+      \resumeItemListStart
+        \resumeItem{Completed a 15-day internship at the Public Works Department (PWD), Barishal}
+        \resumeItem{Gained practical exposure to government civil engineering projects, site supervision, and construction management practices}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Graphic Design Training -- Photoshop \& AI Tools}{Barishal, Bangladesh}
+      {ICT Division, Government of Bangladesh (EDGE Project) $|$ Part-time, On-site}{May 2024 -- Jun 2024}
+      \resumeItemListStart
+        \resumeItem{Completed professional training on Graphic Design using Photoshop and AI tools under the Government of Bangladesh's EDGE Project}
+        \resumeItem{Developed skills in digital content creation, visual design, and AI-assisted creative workflows}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+  \resumeSubHeadingListStart
+
+    \resumeProjectHeading
+      {\textbf{Barishal Engineering College Official Website \& LMS} $|$ \emph{PHP, JavaScript, MySQL}}{Feb 2025 -- Present}
+      \resumeItemListStart
+        \resumeItem{Solely designed, developed, and deployed the official institutional website: \href{https://bec.edu.bd}{\underline{bec.edu.bd}}}
+        \resumeItem{Built a full-featured \textbf{Learning Management System (LMS)} with three role-based portals --- Faculty (\href{https://bec.edu.bd/faculty/login}{\underline{/faculty/login}}), Students (\href{https://bec.edu.bd/students/login}{\underline{/students/login}}), and Admin (\href{https://bec.edu.bd/webadmin}{\underline{/webadmin}})}
+        \resumeItem{Architected PHP/MySQL backend with role-based access control, academic record management, course content delivery, and institutional information management modules}
+        \resumeItem{Live production system in active use by the entire Barishal Engineering College community since February 2025}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{Courier Fraud Check System} $|$ \emph{PHP, JSON API} $|$ \href{https://github.com/dhruborajroy/Courier-Farud-Check}{\underline{GitHub}}}{Jul 2025}
+      \resumeItemListStart
+        \resumeItem{Built a smart fraud detection tool for courier services with PHP backend, JSON API, and responsive UI for real-time fraud tracking and verification}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{Horizon -- Multiline Certificate Generator} $|$ \emph{PHP} $|$ \href{https://github.com/dhruborajroy/horizon}{\underline{GitHub}}}{Nov 2025}
+      \resumeItemListStart
+        \resumeItem{Developed an automated bulk certificate generator for Horizon -- Civil Engineers Forum enabling one-click generation and printing of event certificates}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{BEC Hall Management System} $|$ \emph{PHP} $|$ \href{https://github.com/dhruborajroy/bec-hall-management-system}{\underline{GitHub}}}{Nov 2025}
+      \resumeItemListStart
+        \resumeItem{Designed and developed a residential hall management system for Barishal Engineering College with student allocation, record management, and admin modules}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{QR-Based Digital Management System (ScanBite)} $|$ \emph{PHP, JavaScript, MySQL} $|$ \href{https://github.com/dhruborajroy/ScanBite}{\underline{GitHub}}}{2023 -- 2024}
+      \resumeItemListStart
+        \resumeItem{Built a full-stack web application featuring QR-code-based data entry, authentication, and record management}
+        \resumeItem{Designed normalized MySQL database schema and RESTful PHP backend; deployed on a live web server}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{Flood Hazard Mapping \& Hydrological Analysis} $|$ \emph{ArcGIS, QGIS}}{2024}
+      \resumeItemListStart
+        \resumeItem{Performed GIS-based spatial analysis to delineate flood-prone zones and quantify climate change impact on water flow}
+        \resumeItem{Analyzed hydrological data to support sustainable water resource management recommendations}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{Structural Analysis of RC Buildings} $|$ \emph{AutoCAD, ETABS}}{2023 -- 2024}
+      \resumeItemListStart
+        \resumeItem{Designed and analyzed reinforced concrete building frames under gravity and lateral (seismic/wind) loads using ETABS}
+        \resumeItem{Prepared detailed 2D/3D structural drawings and construction documents using AutoCAD per BNBC standards}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{Krishan Bondhu -- Agricultural Mobile Application} $|$ \emph{Mobile App Development}}{2017}
+      \resumeItemListStart
+        \resumeItem{Independently designed and developed a mobile app to assist farmers with crop management and agricultural guidance}
+        \resumeItem{Won 1st place at the Lalmonirhat District Science Fair and represented at the National Children Science Congress}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+\vspace{2pt}
+\noindent\small{Full project portfolio (54+ repositories): \href{https://github.com/dhruborajroy?tab=repositories}{\underline{github.com/dhruborajroy}}}
+\vspace{4pt}
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Engineering Software:} AutoCAD, ETABS, ArcGIS, QGIS \\[2pt]
+     \textbf{Programming \& Web:} PHP, JavaScript, MySQL, HTML, CSS, R \\[2pt]
+     \textbf{Operating Systems:} Windows, macOS, Linux (Ubuntu, Kali, CentOS, Raspbian Buster) \\[2pt]
+     \textbf{Productivity \& Design Tools:} Microsoft Office Suite (Word, Excel, PowerPoint), \LaTeX, Adobe Photoshop, AI Design Tools \\[2pt]
+     \textbf{Engineering Domains:} Structural Analysis \& Design, Geotechnical Engineering, Hydrology \& Water Resources, Environmental Engineering, Flood Modeling, Transportation Engineering \\[2pt]
+     \textbf{Soft Skills:} Research \& Development, Technical Writing, Anchoring \& Presentation, Team Leadership, Problem Solving \\[2pt]
+     \textbf{Languages:} Bengali (Native), English (Professional), Hindi (Conversational)
+    }}
+ \end{itemize}
+
+%-----------LEADERSHIP & EXTRACURRICULAR ACTIVITIES-----------
+\section{Leadership \& Extracurricular Activities}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Assistant Secretary -- Research, Innovation \& Publication Sub-Committee}{Barishal, Bangladesh}
+      {Horizon -- Civil Engineers Forum, Barishal Engineering College}{Jan 2024 -- Jan 2025}
+      \resumeItemListStart
+        \resumeItem{Drove a research-oriented culture among Civil Engineering students through organized academic events and collaborative projects}
+        \resumeItem{Coordinated academic publication efforts and assisted faculty in student-led research initiatives}
+        \resumeItem{Organized technical seminars, workshops, and innovation showcases; skills: Leadership, Research Coordination, Event Management, Team Collaboration}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Senior Tech Assistant}{Lalmonirhat, Bangladesh}
+      {Lalmonirhat Science and Literature Club}{2020 -- 2024}
+      \resumeItemListStart
+        \resumeItem{Provided technical guidance and mentorship to junior members in science and technology projects}
+        \resumeItem{Supported the club's STEM outreach initiatives in the Lalmonirhat district}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Content Creator \& Engineering Educator}{YouTube / Online}
+      {Dhrubo Raj Roy -- \href{https://www.youtube.com/@dhruborajroy}{\underline{YouTube Channel}}}{2024 -- Present}
+      \resumeItemListStart
+        \resumeItem{Creating educational content on Civil Engineering concepts for university students covering Structural Analysis, Geotechnical Engineering, Hydrology, and Fluid Mechanics}
+        \resumeItem{Bridges theoretical concepts with real-world engineering practice and research}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------REFERENCES-----------
+\section{References}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Md. Liton Rabbani}{}
+      {Associate Professor \& Supervisor, Department of Civil Engineering, Barishal Engineering College}{}
+      \resumeItemListStart
+        \resumeItem{\href{mailto:litonkce01@gmail.com}{litonkce01@gmail.com} \quad \href{mailto:liton.duengg@bec.edu.bd}{liton.duengg@bec.edu.bd} $|$ Tel: (+88) 018-32037220}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Md. Tarek Hossain, PhD}{}
+      {Assistant Professor \& Head, Department of General Science and Humanities, Barishal Engineering College}{}
+      \resumeItemListStart
+        \resumeItem{\href{mailto:tarekphysust@gmail.com}{tarekphysust@gmail.com} $|$ Tel: (+88) 017-2226657}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+\vspace{8pt}
+\noindent\small\textit{I hereby certify that all information provided above is true and correct to the best of my knowledge.}
+
+\end{document}
